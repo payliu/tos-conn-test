@@ -8,5 +8,6 @@ sqlPatterns/
 .settings
 poms/
 **/process/*.screenshot
+!**/process/lib
 #talend.project
 #.project
