@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_O_J1IIJ2EeyXcowPXLbQ5g" name="my-pg" id="_L-sU0IJ2EeyXcowPXLbQ5g" label="my-pg" dataPackage="_jnkDkIJ2EeyXcowPXLbQ5g" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://192.168.1.188:5432/bot?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:/QJ7CJEyGNdLTl6uO4nSNkJTSVsQkt2UbOMmnvEfiM3/z2ruIA==" ServerName="192.168.1.188" DatasourceName="" FileFieldName="" SID="bot" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="jarvis">
+  <TalendMetadata:DatabaseConnection xmi:id="_O_J1IIJ2EeyXcowPXLbQ5g" name="my-pg" id="_L-sU0IJ2EeyXcowPXLbQ5g" label="my-pg" dataPackage="_ujmQQINbEeyusbIQhfiWfQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://192.168.1.188:5432/bot?ApplicationName=conn_test" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:Q1Flya2JMfrgxOF44+mb1tQko0X5C5ME39cRasmxD4g+v0jk4g==" ServerName="192.168.1.188" DatasourceName="" FileFieldName="" SID="bot" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="ApplicationName=conn_test" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_O_LDQIJ2EeyXcowPXLbQ5g" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_O_X3kIJ2EeyXcowPXLbQ5g" tag="package filter" value=""/>
     <taggedValue xmi:id="_O_d-MIJ2EeyXcowPXLbQ5g" tag="Status" value=""/>
@@ -15,7 +15,10 @@
     <parameters xmi:id="_O_LDQYJ2EeyXcowPXLbQ5g" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
     <parameters xmi:id="_TI7G4IJ2EeyXcowPXLbQ5g" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_jnkDkIJ2EeyXcowPXLbQ5g" name="bot" dataManager="_O_J1IIJ2EeyXcowPXLbQ5g">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_jnlRsIJ2EeyXcowPXLbQ5g" name="jarvis"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ujmQQINbEeyusbIQhfiWfQ" name="bot" dataManager="_O_J1IIJ2EeyXcowPXLbQ5g">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ujmQQYNbEeyusbIQhfiWfQ" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ujmQQoNbEeyusbIQhfiWfQ" name="jarvis"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ujmQQ4NbEeyusbIQhfiWfQ" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ujmQRINbEeyusbIQhfiWfQ" name="public"/>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
